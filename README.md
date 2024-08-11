@@ -11,6 +11,7 @@ Once you provide it the new position (if you do), the macro will clone all the b
 \
 If you're using it to get tree data, be sure to use oak or birch leaves to represent leaves that are present and (normal) glass to represent absent ones in your recreation.\
 If you dont know whether a leaf is present or not, feel free to use any other block, such as red wool or red glass or air.\
+You must place a dirt block under every single tree, or the macro won't be able to find them.\
 To indicate you don't know a tree's height, you can use a height of 3.\
 Please note that the 3 UPPER logs will still need to be placed DIRECTLY ON a dirt block to complete the tree representation.\
 Like this: dirt -> log -> log -> log -> leaf on top (not strictly necessary). You can place a maximum of 3 other logs between the dirt block and the third to last log, so if I know a tree's height is 4, I just place an extra one.\
